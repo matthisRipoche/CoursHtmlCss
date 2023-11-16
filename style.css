@@ -1,15 +1,32 @@
-.image{
+body{
+    text-align: center;
+}
+
+a{
     margin-top: 5%;
-    text-align: center;
-}
-
-.slogant{
-    text-align: center;
-}
-
-.button{
-    text-align: center;
+    display : inline-block;
+    text-decoration: none !important;
     color: white;
     background-color: black;
-    padding: 5px 3px;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.image{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.photo{
+    width: 40px;
+    height: 40px;
+    margin-top: 0%;
+    margin-right: 0%;
+    border-style: solid;
+    border-radius: 50%;
+    border-color:rgb(0, 80, 80);
 }
